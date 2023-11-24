@@ -144,7 +144,7 @@ def testapi14():
     print(response_body)
     assert response_body['responseCode'] == 200
 
-#
+#DELETE METHOD To Delete User Account
 def testapi12():
     params = {
         'email': 'alex@gmail.com',
